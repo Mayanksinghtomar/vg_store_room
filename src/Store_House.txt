@@ -1,0 +1,57 @@
+create database store_house;
+
+use store_house;
+
+Create table clothes(Item_Name varchar(35),
+Size varchar(20),
+Quantity Integer);
+
+Create table foot_wear(Item_Name varchar(35),
+Size varchar(20),
+Quantity Integer);
+
+Create table sport(Item_Name varchar(35),
+Quantity Integer);
+
+Create table stationary(Item_Name varchar(35),
+Quantity Integer);
+
+Create table other(Item_Name varchar(35),
+Size varchar(20),
+Quantity Integer);
+
+Create table total_stock_log(Item_Code varchar(40) Primary Key,
+Item_Name varchar(40),
+Size varchar(20),
+Quantity integer ,
+Vendor_Name varchar(40),
+Date varchar(40),
+Price Integer);
+
+Create Table Register(Full_Name varchar(40) NOT NULL,
+User_ID varchar(40) NOT NULL,
+Password varchar(40) NOT NULL,
+Date varchar(40)); 
+
+Create table ISSUED_ITEMS(Item_Name varchar(35),
+Size varchar(20),
+Quantity integer ,
+Issued_To varchar(30),
+Issued_By varchar(30),
+Date varchar(40));
+
+use test;
+
+Create table info(RollNo Integer,
+NAME varchar(25),
+Gender char(1),
+Marks decimal(4,1),
+Hobby varchar(25));
+
+Create Table name(name varchar(20));
+
+
+
+
+
+
