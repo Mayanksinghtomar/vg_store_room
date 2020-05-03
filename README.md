@@ -1,1 +1,1 @@
-# vg_store_room
+# VidyaGyan(VG) Store Room Management System
